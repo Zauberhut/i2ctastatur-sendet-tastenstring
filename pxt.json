@@ -1,0 +1,30 @@
+{
+    "name": "i2cTastatur sendet Tastenstring",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "informatiktheater": "github:mint-n-pepper/informatiktheater#347c57b71e8710337375bbdefd6b9bc853de00fd"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.28",
+        "tag": "v6.0.28",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9d308fa3c282191768670a6558e4df8af2d715cf",
+        "target": "7.0.51",
+        "pxt": "9.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
